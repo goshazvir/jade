@@ -1,0 +1,297 @@
+﻿doctype html
+
+html
+  head
+    title alma 
+    include includes/_head
+  body
+    .out
+      #topp.topper
+        .topper-in
+          .container-fluid
+            .row
+              .col-md-6.col-xs-12.col-sm-6
+                .telephone Käseline: 05573 / 80 80
+              .col-md-6.col-xs-12.col-sm-6
+                .subnav
+                  ul.subnav-list
+                    li.subnav-item
+                      a(href="#").subnav-link Mein Konto
+                    li.subnav-item
+                      a(href="#").subnav-link Warenkorb
+                    li.subnav-item
+                      a(href="#").subnav-link Login
+                    li.subnav-item
+                      a(href="#").subnav-link Sprache    
+        .topper-arr.js-toogle-top
+      header.header
+        .header-bg
+          .container
+            .row
+              .col-md-12.col-xs-12
+                .header-in
+                  a(href="#").header-logo
+                  a(href="#").basket
+                    span.basket-left
+                      i.basket-ico
+                    span.basket-right Warenkorb
+        .nav.js-nav
+          .nav-in
+            .container
+              .row
+                .col-md-12.col-xs-12
+                  a(href="#").nav-logo
+                  .nav-wrap-list
+                    .nav-mobile.js-navmobile
+                      .nav-mobile-ico
+                      .nav-mobile-title MENÜ
+                    ul.nav-list
+                      li.nav-item
+                        a(href="#").nav-link.is-active.hide-768 KÄSE KAUFEN
+                      li.nav-item
+                        a(href="#").nav-link SENNEREIEN
+                        ul.dropdown
+                          li.dropdown-item
+                            a(href="#").dropdown-link Mein Konto
+                          li.dropdown-item
+                            a(href="#").dropdown-link Mein Konto
+                          li.dropdown-item
+                            a(href="#").dropdown-link Mein Konto
+                          li.dropdown-item
+                            a(href="#").dropdown-link Mein Konto
+                      li.nav-item
+                        a(href="#").nav-link INFORMATIONEN
+                      li.nav-item
+                        a(href="#").nav-link  ÜBER UNS
+                  a(href="#").mobile-cheese
+                  a(href="#").basket.m-nav
+                    span.basket-left
+                      i.basket-ico
+                    span.basket-right Warenkorb
+        .slider-wrap
+          .row
+            .col-md-12.col-lg-12.col-sm-12
+              .slider
+                .slider-in
+                  #carousel-example-generic.carousel.slide.carousel-fade(data-ride='carousel')
+                    ol.carousel-indicators
+                      li.active(data-target='#carousel-example-generic', data-slide-to='0')
+                      li(data-target='#carousel-example-generic', data-slide-to='1')
+                    .carousel-inner
+                      .item.active(style="background-image: url(img/bg.jpg)")
+                      .item(style="background-image: url(img/bg.jpg)")
+      .page
+        .container
+          .row
+            .col-md-12.col-lg-9
+              .page-in
+                h1.h1 Unsere Sennereien in den Vorarlberger Alpen (H1)
+                .row
+                  .col-lg-4.col-md-4.col-xs-12
+                    .prod
+                      .prod-media
+                        img(src="img/img1.jpg", alt="")
+                      .prod-title Bergsennerei Lutzenreuthe
+                      .prod-content
+                        p Setu ut labore et dolore magna aliquyam erat, sed diam voluptua. A vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. 
+                          a(href="#") › nach Lutzenreute
+                  .col-lg-4.col-md-4.col-xs-12
+                    .prod
+                      .prod-media
+                        img(src="img/img2.jpg", alt="")
+                      .prod-title Bergsennerei Schnepfau
+                      .prod-content
+                        p Setu ut labore et dolore magna aliquyam erat, sed diam voluptua. A vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. 
+                          a(href="#") › nach Lutzenreute
+                  .col-lg-4.col-md-4.col-xs-12
+                    .prod
+                      .prod-media
+                        img(src="img/img3.jpg", alt="")
+                      .prod-title Bergsennerei Hinteregg
+                      .prod-content
+                        p Setu ut labore et dolore magna aliquyam erat, sed diam voluptua. A vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. 
+                          a(href="#") › nach Lutzenreute
+                .step
+                  .step-title So einfach gehts:
+                  .row
+                    .col-lg-4.col-md-4.col-sm-4.col-xs-12
+                      .step-item
+                        .step-item-media
+                          img(src="img/cheese.png", alt="")
+                        .step-item-meta Käse aussuchen
+                    .col-lg-4.col-md-4.col-sm-4.col-xs-12
+                      .step-item
+                        .step-item-media
+                          img(src="img/sheet.png", alt="")
+                        .step-item-meta Bestellung ausfüllen
+                    .col-lg-4.col-md-4.col-sm-4.col-xs-12
+                      .step-item.m-mod
+                        .step-item-media
+                          img(src="img/cheese.png", alt="")
+                        .step-item-meta Käse genießen
+                .spesial
+                  .row
+                    .col-md-8.col-xs-8
+                      .spesial-descr
+                        .spesial-title Frischeversand
+                        .spesial-content
+                          p 
+                            | Um die größtmögliche Qualität zu sichern, legen wir größten Wert auf Sorgfalt, nicht nur bei der Herstellung, sondern auch beim Transport.
+                          .text-right
+                            button.btn.btn-success.btn-lg › Versand
+                    .col-md-4.col-xs-4
+                      .spesial-media
+                .gallery
+                  .row
+                    .col-md-12.col-xs-12
+                      h2.h2 Hot Sales (H2)
+                      .gallery-in
+                        .js-flexslider
+                          .js-flexslider-in
+                            .gallery-item
+                              img(src="img/slide.png", alt="")
+                            .gallery-item
+                              img(src="img/slide.png", alt="")
+                        .gallery-prev
+                        .gallery-next
+                      .gallery-footer
+                        h3.h3 Ich bin eine Überschrift 3 (H3)
+            .col-md-12.col-lg-3
+              .bar
+                .bar-title Im Überblick
+                .row
+                  .col-sm-4.col-md-4.col-lg-12
+                    .bar-block
+                      .bar-block-header.m-mod
+                        .bar-block-header-title Warenkorb
+                        .bar-block-num 2
+                      .bar-block-in
+                        .bar-block-note
+                          .bar-block-note-item Sie haben
+                          .bar-block-note-item 
+                            span.green 2 Artikel 
+                            span im Warenkorb
+                        .bar-block-row
+                          .bar-block-row-label
+                            | Alma Kräuterschatz
+                            i.pen
+                            i.cross
+                          i.arr
+                        .text-right
+                          button.btn.btn-success › zur Kasse
+                  .col-sm-4.col-md-4.col-lg-12
+                    .bar-block
+                      .bar-block-header
+                        .bar-block-header-title Die Prämierten
+                      .bar-block-in
+                        .bar-block-note
+                          .bar-block-note-item 
+                            | Vlbg. Bergkäse, 10 Monate gereift
+                          .minislide
+                            .js-minislide
+                              .js-minislide-in
+                                .minislide-item
+                                  img(src="img/minislide.png", alt="")
+                                .minislide-item
+                                  img(src="img/minislide.png", alt="")
+                              .minislide-prev
+                              .minislide-next
+                          .bar-block-content
+                            p Der Alma Vorarlberger Bergkäse mit geschützter Ursprungs-bezeichnung (g.U.) wird in kleinen Bergsennereien aus unbehandelter Heumilch erzeugt. 
+                          .text-right
+                            a(href="#").bar-block-more › mehr
+                  .col-sm-4.col-md-4.col-lg-12
+                    .bar-block
+                      .bar-block-header
+                        .bar-block-header-title Verschenken Sie uns
+                      .bar-block-in
+                        .bar-block-media
+                          img(src="img/media11.png", alt="")
+                        .bar-block-content
+                          p Der Alma Vorarlberger Bergkäse mit geschützter Ursprungs-bezeichnung (g.U.) wird in kleinen Bergsennereien aus unbehandelter Heumilch erzeugt. 
+                        .text-right
+                          button.btn.btn-success.btn-lg › *schenk*
+
+
+      footer.footer
+        .container
+          .row
+            .col-md-12.col-lg-9
+              .row
+                .col-lg-4.col-md-4.col-xs-12.col-sm-4
+                  .list
+                    .list-title Alma
+                    ul.list-ul.m-addr
+                      li.list-item
+                        span.list-link Krüzastraße 8
+                      li.list-item
+                        span.list-link A-6912 Hörbranz
+                      li.list-item
+                        span.list-link T +43 5573 8080
+                      li.list-item
+                        a(href="#") info@alma.at
+                      li.list-item.m-spesial
+                        span › Impressum
+                .col-lg-4.col-md-4.col-xs-12.col-sm-4
+                  .list
+                    .list-title Informationen
+                    ul.list-ul
+                      li.list-item
+                        a(href="#") FAQ
+                      li.list-item
+                        a(href="#") Versandkosten
+                      li.list-item
+                        a(href="#") Zahlungsarten
+                      li.list-item
+                        a(href="#") Rücksendungen/Retour
+                      li.list-item
+                        a(href="#") Qualität & Garantie
+                .col-lg-4.col-md-4.col-xs-12.col-sm-4
+                  .list
+                    .list-title Mein Konto
+                    ul.list-ul
+                      li.list-item
+                        a(href="#") Mein Profil
+                      li.list-item
+                        a(href="#") Bestellungen
+                      li.list-item
+                        a(href="#") Paketverfolgung
+                      li.list-item
+                        a(href="#") Bestellungsarchiv
+            .col-md-12.col-lg-3
+              .row
+                .col-md-12.col-xs-12
+                  .row
+                    .col-sm-4.col-md-4.col-lg-12
+                      .list
+                        .list-title Follow us on
+                        .list-social
+                          a(href="#").list-social-fb
+                          a(href="#").list-social-gp
+                          a(href="#").list-social-yt
+                    .col-sm-4.col-md-4.col-lg-12
+                      .list.m-border
+                        .list-title Newsletter
+                        .list-row
+                          input.form-control.my-input(type='email', placeholder='eMail-Adresse')
+                        .text-right
+                          button.btn.btn-gray.btn-xs › Anmelden
+      .basement
+        .container
+          .row
+            .col-md-12.col-xs-12
+              .pay
+                .pay-title Zahlungsarten
+                ul.pay-list
+                  li.pay-list-items
+                    a(href="#").pay-list-item.m1
+                  li.pay-list-items
+                    a(href="#").pay-list-item.m2
+                  li.pay-list-items
+                    a(href="#").pay-list-item.m3
+                  li.pay-list-items
+                    a(href="#").pay-list-item.m4
+                  li.pay-list-items
+                    a(href="#").pay-list-item.m5
+              a(href="#topp").topp
+    script(data-headjs-load='js/init.js', src='js/lib/head.js')
